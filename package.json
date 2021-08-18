@@ -1,0 +1,16 @@
+{
+  "name": "notesapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd api && npm install && npm start",
+    "heroku-postbuild": "cd client && yarn install && yarn run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "10.15.3"
+  }
+}
